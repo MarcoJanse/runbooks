@@ -68,7 +68,7 @@ Function AssignRunAsRoleToSystemIdentity
     }
 }
 
-Connect-AzAccount -Environment $Env -ErrorAction Stop > $null
+# Connect-AzAccount -Environment $Env -ErrorAction Stop > $null
 
 # ---------------------------------------------------------------------------------------------
 # Enable System Assigned MI if not enabled.

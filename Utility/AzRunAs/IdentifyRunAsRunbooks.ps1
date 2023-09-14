@@ -17,7 +17,7 @@ Param(
 )
 
 # This script requires system identity enabled for the automation account with automation reader access on this automation account - read runbook content.
-Connect-AzAccount -Identity
+# Connect-AzAccount -Identity
 
 $userToken = (Get-AzAccessToken).Token
 $Headers = @{
